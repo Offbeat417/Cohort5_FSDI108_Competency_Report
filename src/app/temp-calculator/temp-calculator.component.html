@@ -1,0 +1,11 @@
+<br><br><br>
+<h5>Temperature Converter</h5>
+<hr>
+
+<div>
+    <label>Fahrenheit:</label>
+    <input type="number" [(ngModel)]="fahrenheit" name="fahrenheit" (ngModelChange)="convertFtoC()">
+
+    <label>Celsius:</label>
+    <input type="number" [(ngModel)]="celsius" name="celsius" (ngModelChange)="convertCtoF()">
+</div>
